@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Barlow:wght@300;400;500;600&family=Barlow+Condensed:wght@600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+<title>FITCOACH — Trénink, který tě změní</title>
+</head>
+<body>
+
+<div class="cursor-glow" id="cursorGlow"></div>
+
+<!-- NAVBAR -->
+<nav class="navbar">
+  <div class="nav-inner">
+    <a href="index.html" class="logo">FIT<span>COACH</span></a>
+    <ul class="nav-links">
+      <li><a href="#hero" class="active">Domů</a></li>
+      <li><a href="sluzby.html">Služby</a></li>
+      <li><a href="omne.html">O mně</a></li>
+      <li><a href="#kontakt">Kontakt</a></li>
+    </ul>
+    <a href="sluzby.html" class="nav-cta">Začít →</a>
+  </div>
+</nav>
+
+<!-- HERO -->
+<section id="hero" class="hero">
+  <div class="hero-left">
+    <div class="hero-tag reveal">Certifikovaný osobní trenér · Praha</div>
+    <h1 class="hero-title reveal reveal-delay-1">
+      TRÉNINK,<br>
+      KTERÝ TĚ<br>
+      <em>ZMĚNÍ.</em>
+    </h1>
+    <p class="hero-sub reveal reveal-delay-2">
+      Individuální vedení, které ti pomůže dosáhnout výsledků
+      bez chaosu a zbytečných extrémů.
+    </p>
+    <div class="hero-actions reveal reveal-delay-3">
+      <a href="sluzby.html" class="btn-primary">Začít spolupracovat</a>
+      <a href="omne.html" class="btn-ghost">
+        O mně
+        <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
+          <path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+      </a>
+    </div>
+  </div>
+  <div class="hero-right">
+    <img src="trainer.png" alt="Fitness trenér">
+  </div>
+  <div class="hero-numbers">
+    <div class="hero-num-item reveal reveal-delay-2">
+      <div class="num">5<span>+</span></div>
+      <div class="label">Let praxe</div>
+    </div>
+    <div class="hero-num-item reveal reveal-delay-3">
+      <div class="num">50<span>+</span></div>
+      <div class="label">Klientů</div>
+    </div>
+    <div class="hero-num-item reveal reveal-delay-4">
+      <div class="num">100<span>%</span></div>
+      <div class="label">Individuální přístup</div>
+    </div>
+  </div>
+</section>
+
+<!-- INFO STRIP -->
+<div class="info-strip">
+  <div class="info-inner">
+    <div class="info-item">
+      <div class="info-label">Kde nás najdeš</div>
+      <div class="info-value">Praha · Osobní & online tréninky</div>
+    </div>
+    <div class="info-item">
+      <div class="info-label">Dostupnost</div>
+      <div class="info-value">Po–Pá: 9:00 – 16:00</div>
+    </div>
+    <div class="info-item">
+      <div class="info-label">První konzultace</div>
+      <div class="info-value">30 minut zdarma</div>
+    </div>
+  </div>
+</div>
+
+<!-- SERVICES -->
+<section id="sluzby">
+  <div class="section">
+    <div class="section-eyebrow reveal">Co nabízím</div>
+    <div class="section-title reveal reveal-delay-1">SLUŽBY</div>
+    <div class="services-grid reveal reveal-delay-2">
+      <a href="sluzby.html" class="service-card">
+        <div class="service-num">01</div>
+        <img src="plan.png" alt="" class="service-icon">
+        <div class="service-title">Osobní trénink</div>
+        <p class="service-desc">Individuální plán podle tvých cílů. Bez univerzálních řešení a prázdných slibů.</p>
+        <div class="service-link">Zjistit více <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+      </a>
+      <a href="sluzby.html" class="service-card">
+        <div class="service-num">02</div>
+        <img src="coaching.png" alt="" class="service-icon">
+        <div class="service-title">Online coaching</div>
+        <p class="service-desc">Trénuj odkudkoliv s mojí podporou, kontrolou a zpětnou vazbou.</p>
+        <div class="service-link">Zjistit více <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+      </a>
+      <a href="sluzby.html" class="service-card">
+        <div class="service-num">03</div>
+        <img src="vyziva.png" alt="" class="service-icon">
+        <div class="service-title">Výživa</div>
+        <p class="service-desc">Jednoduchý systém stravování, který zvládneš dlouhodobě a bez extrémů.</p>
+        <div class="service-link">Zjistit více <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section id="omne" class="section-full">
+  <div class="section-inner">
+    <div class="about-grid">
+      <div class="about-img-wrap reveal">
+        <img src="triner-1.png" alt="Trenér">
+      </div>
+      <div class="about-content">
+        <div class="section-eyebrow reveal">Kdo jsem</div>
+        <div class="section-title reveal reveal-delay-1" style="margin-bottom:32px;">O MNĚ</div>
+        <p class="about-text-main reveal reveal-delay-1">
+          Pomáhám lidem budovat sílu, zlepšit kondici a hlavně vydržet.
+          Nevěřím na extrémy — věřím na systém, který funguje dlouhodobě.
+        </p>
+        <p class="about-text-secondary reveal reveal-delay-2">
+          Každý klient je jiný, a proto každý plán přizpůsobuji na míru.
+          Cílem není rychlá změna, ale výsledky, které si udržíš.
+        </p>
+        <div class="stats-row reveal reveal-delay-2">
+          <div class="stat-box"><div class="stat-num">5+</div><div class="stat-label">Let praxe</div></div>
+          <div class="stat-box"><div class="stat-num">50+</div><div class="stat-label">Klientů</div></div>
+          <div class="stat-box"><div class="stat-num">100%</div><div class="stat-label">Individuální</div></div>
+        </div>
+        <div class="cert-list reveal reveal-delay-3">
+          <div class="cert-item">Certifikovaný trenér</div>
+          <div class="cert-item">Výživové poradenství</div>
+          <div class="cert-item">Individuální plánování</div>
+        </div>
+        <a href="omne.html" class="about-more-link reveal reveal-delay-3">
+          Zjistit více o mně
+          <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CTA BANNER -->
+<section class="cta-banner">
+  <div class="cta-banner-inner">
+    <div class="section-eyebrow reveal" style="justify-content:center;">Udělej první krok</div>
+    <h2 class="cta-title reveal reveal-delay-1">PŘIPRAVEN<br>ZAČÍT?</h2>
+    <p class="cta-sub reveal reveal-delay-2">Rezervuj si bezplatnou 30minutovou konzultaci a zjisti, co pro tebe mohu udělat.</p>
+    <a href="sluzby.html" class="btn-primary reveal reveal-delay-3">Zjistit více →</a>
+  </div>
+</section>
+
+<!-- TESTIMONIALS -->
+<section class="section-full">
+  <div class="section-inner">
+    <div class="section-eyebrow reveal">Co říkají klienti</div>
+    <div class="section-title reveal reveal-delay-1">VÝSLEDKY</div>
+    <div class="testimonials-wrap">
+      <div class="testimonials-track">
+        <div class="testimonial-card"><p class="testimonial-text">-8 kg za 3 měsíce. Konečně systém, který dává smysl a který zvládám dlouhodobě.</p><div class="testimonial-author">Tomáš K. · Osobní trénink</div></div>
+        <div class="testimonial-card"><p class="testimonial-text">Poprvé mě trénink baví. Žádné otravné opakování, každý týden něco nového.</p><div class="testimonial-author">Markéta V. · Online coaching</div></div>
+        <div class="testimonial-card"><p class="testimonial-text">Jasný plán, žádný chaos. Konečně vím co jím a proč. Výsledky mluví samy za sebe.</p><div class="testimonial-author">Ondřej M. · Výživa + trénink</div></div>
+        <div class="testimonial-card"><p class="testimonial-text">Za půl roku jsem změnil víc než za předchozí 3 roky sám. Přístup na míru fakt funguje.</p><div class="testimonial-author">Lukáš R. · Osobní trénink</div></div>
+        <div class="testimonial-card"><p class="testimonial-text">-8 kg za 3 měsíce. Konečně systém, který dává smysl a který zvládám dlouhodobě.</p><div class="testimonial-author">Tomáš K. · Osobní trénink</div></div>
+        <div class="testimonial-card"><p class="testimonial-text">Poprvé mě trénink baví. Žádné otravné opakování, každý týden něco nového.</p><div class="testimonial-author">Markéta V. · Online coaching</div></div>
+        <div class="testimonial-card"><p class="testimonial-text">Jasný plán, žádný chaos. Konečně vím co jím a proč. Výsledky mluví samy za sebe.</p><div class="testimonial-author">Ondřej M. · Výživa + trénink</div></div>
+        <div class="testimonial-card"><p class="testimonial-text">Za půl roku jsem změnil víc než za předchozí 3 roky sám. Přístup na míru fakt funguje.</p><div class="testimonial-author">Lukáš R. · Osobní trénink</div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="footer" id="kontakt">
+  <div class="footer-inner">
+    <div class="footer-top">
+      <div>
+        <a href="index.html" class="footer-logo">FIT<span>COACH</span></a>
+        <p class="footer-tagline">Trénink, který tě změní. Individuální přístup, dlouhodobé výsledky.</p>
+      </div>
+      <div>
+        <div class="footer-col-title">Kontakt</div>
+        <a href="tel:+420665767432" class="footer-contact-item"><svg class="footer-contact-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.8 19.79 19.79 0 01.01 1.21 2 2 0 012 .01h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.09 7.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>+420 665 767 432</a>
+        <a href="mailto:info@fitcoach.cz" class="footer-contact-item"><svg class="footer-contact-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>info@fitcoach.cz</a>
+      </div>
+      <div>
+        <div class="footer-col-title">Kde nás najdeš</div>
+        <div class="footer-contact-item"><svg class="footer-contact-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13S3 17 3 10a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>Praha<br>Osobní &amp; online tréninky</div>
+        <div class="footer-contact-item"><svg class="footer-contact-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12,6 12,12 16,14"/></svg>Po–Pá: 9:00 – 16:00</div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="footer-copy">© 2026 FitCoach · Praha</div>
+      <div class="footer-links">
+        <a href="#hero">Domů</a>
+        <a href="sluzby.html">Služby</a>
+        <a href="omne.html">O mně</a>
+        <a href="#kontakt">Kontakt</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
